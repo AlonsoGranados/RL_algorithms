@@ -13,7 +13,7 @@ average_reward, average_optimal_action = e_greedy_algorithm(steps, samples, numb
 rewards.append(average_reward)
 optimal_actions.append(average_optimal_action)
 # UPC
-average_reward, average_optimal_action = UPC(steps, samples, number_bandits, 0.1)
+average_reward, average_optimal_action = UPC(steps, samples, number_bandits, 2)
 rewards.append(average_reward)
 optimal_actions.append(average_optimal_action)
 
